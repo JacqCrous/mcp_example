@@ -46,7 +46,7 @@ def get_greeting(name: str) -> str:
 
 # Add a prompt
 @mcp.prompt()
-def greet_user(name: str, style: str = "friendly") -> str:
+def get_greeting_prompt(name: str, style: str = "friendly") -> str:
     """Generate a greeting prompt"""
     styles = {
         "friendly": "Please write a warm, friendly greeting",
